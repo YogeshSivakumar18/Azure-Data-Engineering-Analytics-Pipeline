@@ -7,6 +7,7 @@ Utilized Medallion Architecture to integrate ADF, Databricks, Synapse, and Power
 Each layer is governed, monitored, and secured with Microsoft Entra ID and role-based access control (RBAC).
 ________________________________________
 Tech Stack
+
     Ingestion	- Azure Data Factory
     Storage	- Azure Data Lake Gen2
     Processing - Azure Databricks (PySpark)
