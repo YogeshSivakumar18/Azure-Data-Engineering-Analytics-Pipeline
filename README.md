@@ -37,6 +37,8 @@ __________________________
 - Built external tables, schemas, and views to organize curated data.
 - Data stored in the Gold container for analytics.
 
+![Synapse Analytics Workspace.png](Synapse%20Analytics%20Workspace.png)
+
 4.	Visualization & Insights
 - Integrated Power BI with Synapse for real-time reporting.
 - Designed KPIs and visuals
