@@ -15,24 +15,23 @@ Tech Stack
 __________________________
 Pipeline Flow:
 1.	Data Ingestion (Bronze Layer)
-
-o	Created dynamic pipelines in Azure Data Factory to pull raw data from the source.
-o	Stored data in Azure Data Lake Gen2 under the Bronze container.
+- Created dynamic pipelines in Azure Data Factory to pull raw data from the source.
+- Stored data in Azure Data Lake Gen2 under the Bronze container.
 
 2.	Data Transformation (Silver Layer)
   
-o	Connected Azure Databricks to the Data Lake.
-o	Performed data cleaning, transformations, and aggregations using PySpark.
-o	Wrote processed data to the Silver container (Silver Layer).
+- Connected Azure Databricks to the Data Lake.
+- Performed data cleaning, transformations, and aggregations using PySpark.
+- Wrote processed data to the Silver container (Silver Layer).
 
 3.	Data Modeling & Storage (Gold Layer)
-o	Created Synapse Analytics workspace.
-o	Built external tables, schemas, and views to organize curated data.
-o	Data stored in the Gold container for analytics.
+- Created Synapse Analytics workspace.
+- Built external tables, schemas, and views to organize curated data.
+- Data stored in the Gold container for analytics.
 
 4.	Visualization & Insights
-o	Integrated Power BI with Synapse for real-time reporting.
-o	Designed KPIs and visuals
+- Integrated Power BI with Synapse for real-time reporting.
+- Designed KPIs and visuals
 ________________________________________
 Business Impact
 This pipeline enhances data transparency, reduces latency, and ensures secure, automated reporting for supply chain decisions, minimizing manual data handling and improving efficiency.
