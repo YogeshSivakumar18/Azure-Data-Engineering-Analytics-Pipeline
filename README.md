@@ -34,5 +34,6 @@ Pipeline Flow:
 - Designed KPIs and visuals
 ________________________________________
 Business Impact
+
 This pipeline enhances data transparency, reduces latency, and ensures secure, automated reporting for supply chain decisions, minimizing manual data handling and improving efficiency.
 ________________________________________
