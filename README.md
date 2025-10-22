@@ -7,7 +7,7 @@ ________________________________________
 Utilized Medallion Architecture to integrate ADF, Databricks, Synapse, and Power BI.
 Each layer is governed, monitored, and secured with Microsoft Entra ID and role-based access control (RBAC).
 
-![Architecture Overview][Data%20Architecture.png]
+![Architecture Overview](Data%20Architecture.png)
 ________________________________________
 ## Tech Stack
 
