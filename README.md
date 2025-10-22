@@ -22,6 +22,7 @@ __________________________
 1.	Data Ingestion (Bronze Layer)
 - Created dynamic pipelines in Azure Data Factory to pull raw data from the source.
 - Stored data in Azure Data Lake Gen2 under the Bronze container.
+![Azure Data Factory Pipeline](Azure%20Data%20Factory%20Pipeline.png)
 
 2.	Data Transformation (Silver Layer)
   
