@@ -6,6 +6,8 @@ This project demonstrates an end-to-end Azure Data Engineering pipeline designed
 ________________________________________
 Utilized Medallion Architecture to integrate ADF, Databricks, Synapse, and Power BI.
 Each layer is governed, monitored, and secured with Microsoft Entra ID and role-based access control (RBAC).
+
+![Architecture Overview][Data Architecture.png]
 ________________________________________
 ## Tech Stack
 
