@@ -31,7 +31,7 @@ __________________________
 - Performed data cleaning, transformations, and aggregations using PySpark.
 - Wrote processed data to the Silver container (Silver Layer).
 
-![Databricks Notebook](Databricks%20Transformations.ipynb)
+[![Databricks Notebook](Icon.svg)](Databricks%20Transformations.ipynb) **Click the Icon to have a look at the notebook**
 
 3.	Data Modeling & Storage (Gold Layer)
 - Created Synapse Analytics workspace.
