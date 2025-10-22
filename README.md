@@ -38,7 +38,7 @@ __________________________
 - Integrated Power BI with Synapse for real-time reporting.
 - Designed KPIs and visuals
 
-![Power BI Dashboard](BI%20Dashboard%20Scrreenshot%20.png)
+![Power BI Dashboard](BI%20Dashboard%20Screenshot%20.png)
 ________________________________________
 ## Business Impact
 
