@@ -1,6 +1,7 @@
 # Supply-Chain-Optimization-using-Azure-Data-Engineering
 
 Overview
+
 This project demonstrates an end-to-end Azure Data Engineering pipeline designed to optimize supply chain operations by improving data visibility, security, and efficiency across multiple stages from ingestion to reporting.
 ________________________________________
 Utilized Medallion Architecture to integrate ADF, Databricks, Synapse, and Power BI.
