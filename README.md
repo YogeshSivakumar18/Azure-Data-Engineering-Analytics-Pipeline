@@ -1,13 +1,13 @@
 # Supply-Chain-Optimization-using-Azure-Data-Engineering
 
-Overview
+## Overview
 
 This project demonstrates an end-to-end Azure Data Engineering pipeline designed to optimize supply chain operations by improving data visibility, security, and efficiency across multiple stages from ingestion to reporting.
 ________________________________________
 Utilized Medallion Architecture to integrate ADF, Databricks, Synapse, and Power BI.
 Each layer is governed, monitored, and secured with Microsoft Entra ID and role-based access control (RBAC).
 ________________________________________
-Tech Stack
+## Tech Stack
 
     Ingestion	- Azure Data Factory
     Storage	- Azure Data Lake Gen2
@@ -15,7 +15,8 @@ Tech Stack
     Modeling - Azure Synapse Analytics
     Visualization	- Power BI
 __________________________
-Pipeline Flow:
+## Pipeline Flow:
+
 1.	Data Ingestion (Bronze Layer)
 - Created dynamic pipelines in Azure Data Factory to pull raw data from the source.
 - Stored data in Azure Data Lake Gen2 under the Bronze container.
@@ -35,7 +36,7 @@ Pipeline Flow:
 - Integrated Power BI with Synapse for real-time reporting.
 - Designed KPIs and visuals
 ________________________________________
-Business Impact
+## Business Impact
 
 This pipeline enhances data transparency, reduces latency, and ensures secure, automated reporting for supply chain decisions, minimizing manual data handling and improving efficiency.
 ________________________________________
