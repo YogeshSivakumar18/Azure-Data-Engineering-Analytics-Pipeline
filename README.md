@@ -1,4 +1,4 @@
-# Supply-Chain-Optimization-using-Azure-Data-Engineering
+# Cloud based data engineering & analytics pipeline for a unified solution
 
 ## Overview
 
