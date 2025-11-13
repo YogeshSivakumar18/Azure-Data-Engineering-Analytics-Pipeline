@@ -16,18 +16,20 @@ ________________________________________
     Processing - Azure Databricks (PySpark)
     Modeling - Azure Synapse Analytics
     Visualization	- Power BI
+    Identity & Security - Microsoft Entra ID + RBAC + Key Vault
 __________________________
 ## Pipeline Flow:
 
 1.	Data Ingestion (Bronze Layer)
 - Created dynamic pipelines in Azure Data Factory to pull raw data from the source.
+- Configured linked services and datasets with managed identities via Microsoft Entra ID.
 - Stored data in Azure Data Lake Gen2 under the Bronze container.
 
 ![Azure Data Factory Pipeline](Azure%20Data%20Factory%20Pipeline.png)
 
 2.	Data Transformation (Silver Layer)
   
-- Connected Azure Databricks to the Data Lake.
+- Connected Azure Databricks to the Data Lake using Service Principal authentication (Entra ID).
 - Performed data cleaning, transformations, and aggregations using PySpark.
 - Wrote processed data to the Silver container (Silver Layer).
 
@@ -36,6 +38,7 @@ __________________________
 3.	Data Modeling & Storage (Gold Layer)
 - Created Synapse Analytics workspace.
 - Built external tables, schemas, and views to organize curated data.
+- Applied row-level security (RLS) and RBAC via Entra ID to enforce controlled access.
 - Data stored in the Gold container for analytics.
 
 ![Synapse Analytics Workspace.png](Synapse%20Analytics%20Workspace.png)
