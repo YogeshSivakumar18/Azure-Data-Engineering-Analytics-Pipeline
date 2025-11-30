@@ -9,6 +9,7 @@ Each layer is governed, monitored, and secured with Microsoft Entra ID and role-
 
 ![Architecture Overview](Data%20Architecture.png)
 ________________________________________
+
 ## Tech Stack
 
     Ingestion	- Azure Data Factory
